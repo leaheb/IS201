@@ -1,0 +1,49 @@
+.body { 
+    background-color:lavenderblush;
+}
+.common {
+    /* background-color: #cccccc; */
+    position: absolute;
+}
+.header {
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    height: 100px;
+    z-index: 2;
+    border-bottom: solid 2px deeppink;
+    text-align: center;
+}
+.leftmenu {
+    top: 114px;
+    left: 5px;
+    width: 95px;
+    bottom: 39px;
+    z-index: 1;
+    padding-top: 1px;
+    border-right: solid 2px deeppink;
+}
+.mainbody {
+    top: 114px;
+    left: 114px;
+    right: 114px;
+    bottom: 39px;
+    padding-right: 5px;
+}
+.footer {
+    bottom: 5px;
+    left: 5px;
+    right: 5px;
+    height: 25px;
+    font-size: 8px;
+    color: black;
+    text-align: justify;
+    padding-top: 15px;
+    position: fixed;
+}
+.subheader {
+    float: right;
+}
+.center{
+    text-align: center;
+}
